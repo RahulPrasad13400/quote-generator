@@ -20,10 +20,10 @@ body{
 }
 
 .quote-container{
-    color: white;
+    color: black;
     width: auto;
     max-width: 900px;
-    background-color: black;
+    background-color: gainsboro;
     padding: 20px 30px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -34,7 +34,9 @@ body{
 }
 
 .long-quote{
-    font-size: 1.5rem;
+    font-size: 0.5rem;
+    color: violet;
+
 }
 
 .quote-author{
@@ -42,6 +44,26 @@ body{
     font-size: 2rem;
     font-weight: 400;
     font-style: italic;
+}
+
+.button-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 13px;
+    background-color: black;
+    color: white;
 }
 
 /* Media Query */
